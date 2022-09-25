@@ -3,6 +3,7 @@ package d.type_casting;
 public class Main {
 
 	public static void main(String[] args) {
+		// byte > short > int > long > float > double
 		// TODO 01: Wide casting (implicit)
 		//	TODO 01.a: Create a byte variable
 		
