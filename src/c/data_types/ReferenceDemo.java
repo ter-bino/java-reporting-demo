@@ -6,10 +6,10 @@ public class ReferenceDemo {
 	
 	public static void main(String[] args) {
 		//TODO 04: Two reference variable with the same object
-		int[] array1 = new int[] {1, 2, 3, 4, 5};
+		var array1 = new int[] {1, 2, 3, 4, 5};
 		System.out.println("Array 1: " + Arrays.toString(array1));
 		
-		int[] array2 = array1;
+		var array2 = array1;
 		System.out.println("Array 2: " + Arrays.toString(array2));
 	}
 }
