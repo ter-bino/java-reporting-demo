@@ -13,7 +13,7 @@ public class Main {
 		
 		//=====================================================================//
 		
-		// TODO 02: Initialization on decleration
+		// TODO 02: Initialization on declaration
 		//	TODO 02.a: Declare a variable and initialize a value
 		
 		//	TODO 02.b: Output the value of the variable
