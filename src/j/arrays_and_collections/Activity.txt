@@ -2,8 +2,9 @@ Activities:
 
 1. Create a program that will accept 5 inputs int
 	from the user. The program should store them
-	in an array with a size of 5. The output should
-	be the average of the 5 numbers.
+	in an array with a size of 5. Traverse the array
+	to find and output the average.
+	(USE ARRAYS!)
 	
 2. Create a program that will ask the user for input
 	n. The program will then collect n amount of names

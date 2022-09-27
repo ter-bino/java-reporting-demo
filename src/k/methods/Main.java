@@ -7,10 +7,8 @@ public class Main {
 		
 		
 		// TODO 02: Method return types
-
 	}
 	
 	// TODO 03: Creating our own methods
-	
 
 }

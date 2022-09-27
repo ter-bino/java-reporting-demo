@@ -1,0 +1,25 @@
+Activities:
+
+	You decide what you wan't to do with your main()
+method. Just make sure it should make use of these
+following two methods:
+
+1. Create a static method can accept any amount
+	of Strings as it's parameter. The method should
+	concatenate the Strings together, seperated by
+	spaces. Return the result as a String.
+	
+	Sample:
+	Argument : "I", "don't", "know", "what", "this", "is"
+	Return   : "I don't know what this is "
+	
+2. Create a static method that will accept an int.
+	The method should check if the int is a perfect
+	square or not. Return value shoudl either be
+	true or false (boolean)
+	
+	Sample
+	Argument:		Return:
+	49			->	True
+	23			->	False
+	9			->	True
