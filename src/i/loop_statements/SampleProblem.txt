@@ -1,0 +1,28 @@
+Sample Problems:
+
+1. Ask for negative (while and do-while) 
+
+	Create a program that will keep on asking for
+	a negative number. The program should keep on
+	looping for as long as the user's input is still
+	a positive number. Print "done" when exiting the
+	loop.
+	
+	-> Implement above with while and do-whike
+	
+	Sample:
+	Enter a negative number: 10
+	Enter a negative number: 20
+	Enter a negative number: 15
+	Enter a negative number: -1
+	done
+
+2. Sum of even numbers(for loop)
+	
+	Create a program that will find the sum of all
+	numbers before n. Given n is the input from the
+	user.
+	
+	Sample input:	Process:				Sample output:
+	10		->		(2 + 4 + 6 + 8)			->	20
+	11 		->		(2 + 4 + 6 + 8 + 10)	->	30

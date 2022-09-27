@@ -1,0 +1,12 @@
+Activities:
+
+1. Create a program that will accept 5 inputs int
+	from the user. The program should store them
+	in an array with a size of 5. The output should
+	be the average of the 5 numbers.
+	
+2. Create a program that will ask the user for input
+	n. The program will then collect n amount of names
+	from the user and store it to an array of String
+	with size n. Use Arrays.toString() to output the
+	contents of the array.

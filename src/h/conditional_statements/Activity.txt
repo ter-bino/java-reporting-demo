@@ -1,11 +1,17 @@
 Activity:
 
-1. Allowed to Ride
+1. Allowed or Not
 
 	Some rides in Star City has a minimum height for some
-	of their rides. Let's say that it is 140cm.
+	of their rides. Let's say that it's 140cm.
+	
 	Given the height as an input, output should be either
-	"Allowed" or "Not Allowed"
+	"Allowed" or "Not allowed"
+	
+	Samples:
+	139 -> "Not allowed"
+	140 -> "Allowed"
+	160 -> "Allowed"
 
 2. Chinese Zodiac
 

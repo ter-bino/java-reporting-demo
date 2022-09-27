@@ -1,0 +1,10 @@
+Sample Problems:
+
+1.	Create an array of ints whose contents are as follows
+	{2, 3, 5, 6, 8, 9}. Traverse the array using a for loop
+	and output the sum of all of it's contents.
+	
+2.	Create an ArrayList and add 2, 3, 5, 6, 8 and 9 using it's
+	add() method. Traverse the ArrayList with a for loop and
+	use it's get() method to print it's contents one at a
+	time.

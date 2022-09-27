@@ -1,0 +1,25 @@
+Activities:
+
+1. Create a program that will continously accept
+	names from the user. The program should keep
+	printing the names entered by the user until
+	the user inputs "end"
+	
+	Sample:
+	
+	Enter a name : ter		(input)
+	You entered ter			(output)
+	Enter a name : peter	(input)	
+	You entered peter		(output)
+	Enter a name : dexter	(input)
+	You entered dexter		(output)
+	Enter a name : end		(input)
+	Closing the program...	(output)
+	
+2. Create a program that will find the sum of all
+	integers before n. Given n is an input from
+	the user.
+	
+	Sample input:	Process:		Sample output:
+	3			->	(1 + 2)		->	3
+	11 			->	(1 + 2 + 3)	->	6
