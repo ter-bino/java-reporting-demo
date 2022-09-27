@@ -1,0 +1,39 @@
+Activity:
+
+1. Allowed to Ride
+
+	Some rides in Star City has a minimum height for some
+	of their rides. Let's say that it is 140cm.
+	Given the height as an input, output should be either
+	"Allowed" or "Not Allowed"
+
+2. Chinese Zodiac
+
+	Create a program that will find the chinese zodiac given
+	the birth year as an input. Use the control statement that
+	you find appropriate.
+	
+	Valid outputs are:
+	"Monkey", "Rooster", "Dog", "Pig", "Rat", "Ox", "Tiger"
+	"Rabbit", "Dragon", "Snake", "Horse", "Goat",
+	
+	Note: You will have to use modulo operator (birthyear % 12)
+			then use control statement on the outcome
+			
+			0 = Monkey
+			1 = Rooster
+			2 = Dog
+			3 = Pig
+			4 = Rat
+			5 = Ox
+			6 = Tiger
+			7 = Rabbit
+			8 = Dragon
+			9 = Snake
+			10 = Horse
+			11 = Goat
+			
+	Hint: (birthyear % 12) will return 0 to 11. The appropriate output
+			is listed above.
+			
+			

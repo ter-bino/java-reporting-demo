@@ -1,10 +1,10 @@
-package g.conditional_statements;
+package h.conditional_statements;
 
 public class SwitchPerformanceDemo {
 
 	public static void main(String[] args) {
-		long startTime, endTime;
-		double taskTime;
+		long startTime = 0, endTime = 0;
+		double taskTime = 0.0;
 		// TODO 05: Performance of switch vs. multiple else if
 		int num = 100;
 		

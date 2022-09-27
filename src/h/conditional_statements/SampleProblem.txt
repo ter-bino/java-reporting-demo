@@ -1,0 +1,39 @@
+1. Discount for Children: (If-Else)
+	
+	The amusement park decided to give a discount for customers
+	7 years old and below. Given a customer's age as input to
+	your program, output either "Discounted" or "Not discounted!"
+	
+	Sample inputs:			Sample outputs:
+	5				->		"Discounted"
+	24				->		"Not discounted"
+	
+
+2. Boiling Point or Freezing Point: (If-Else If-Else)
+
+	Create a program that will accept an input from the user.
+	The input will be water's temperature and the program
+	should output whether it's "freezing" or "boiling". Output
+	"waiting" if it's neither.
+	
+	Note: Boiling point starts at 100 degree celsius (up) and 
+		  Freezing point starts at 0 degree celsius (down)
+	
+	Sample inputs:			Sample outputs:
+	-15				->		"freezing"
+	28				->		"waiting"
+	115				->		"boiling"
+	
+3. Day of Week (Switch-case)
+
+	Given the day of week as input integer, output it's
+	corresponding day of week as a String.
+	
+	Sample inputs:			Sample outputs:
+	1				->		"Sunday"
+	2				->		"Monday"
+	3				->		"Tuesday"
+	4				->		"Wednesday"
+	5				->		"Thursday"
+	6				->		"Friday"
+	7				->		"Saturday"

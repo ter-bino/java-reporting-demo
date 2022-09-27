@@ -1,4 +1,4 @@
-package h.loop_statements;
+package i.loop_statements;
 
 public class Main {
 

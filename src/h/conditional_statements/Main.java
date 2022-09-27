@@ -1,9 +1,8 @@
-package g.conditional_statements;
+package h.conditional_statements;
 
 public class Main {
 
 	public static void main(String[] args) {
-		int num = 100;
 		// TODO 01: If-Else
 		
 		// TODO 02: Else if

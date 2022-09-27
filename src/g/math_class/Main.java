@@ -1,4 +1,4 @@
-package f.math_class;
+package g.math_class;
 
 public class Main {
 

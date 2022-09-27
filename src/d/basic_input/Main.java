@@ -1,4 +1,4 @@
-package j.basic_input;
+package d.basic_input;
 
 public class Main {
 

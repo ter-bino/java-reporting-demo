@@ -1,4 +1,4 @@
-package i.arrays_and_collections;
+package j.arrays_and_collections;
 
 public class Main {
 
