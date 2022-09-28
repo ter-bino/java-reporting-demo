@@ -7,3 +7,11 @@ Activity:
 	
 	Hint:
 		Use try-catch inside of a loop statement.
+		
+	Sample:
+	Enter a number: dek
+	Not a number!
+	Enter a number: pok
+	Not a number!
+	Enter a number: 2
+	You entered 2!
