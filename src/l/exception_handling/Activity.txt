@@ -1,7 +1,7 @@
 Activity:
 
-		Create a program that will ask a number from
-	the user. The program should keep on asking user
+		Create 2 programs that will ask a number from
+	the user. The programs should keep on asking user
 	for a number if the user provides input that is
 	not numeric. Make use of 'exception handling'.
 	
@@ -15,3 +15,7 @@ Activity:
 	Not a number!
 	Enter a number: 2
 	You entered 2!
+	
+	1. First program should handle InputMismatchException.
+	
+	2. Second program should handle NumberFormatException.
