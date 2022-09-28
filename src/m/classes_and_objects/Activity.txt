@@ -1,0 +1,32 @@
+Activities:
+
+1.		Create a class called Money. The class should
+	have two attributes, currency (String) and amount
+	(double/float). Objects of type Money should have
+	method printMoney() which should output something
+	like "(currency) (amount)":
+		PHP 150.00
+		USD 250.25
+		PHP 1325.20
+		
+2.		Create a class called Television. This class
+	should have an attribute "currentChannel" with a
+	default value of 1.
+	
+		There must be methods:
+			- channelDown() - decrements the current
+				channel and output it.
+			- channelUp() - increments the current
+				channel and output it.
+				
+		Channels should only range from 1-10.
+		
+	Sample:
+		Television television = new Television();
+		television.channelUp()
+		output:	Switched to channel 2!
+		television.channelDown()
+		output:	Switched to channel 1!
+		television.channelDown()
+		output:	..nothing happens..
+			(because 1 is already minimum channel)

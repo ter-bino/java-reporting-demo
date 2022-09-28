@@ -1,0 +1,10 @@
+Sample Problems:
+
+1.		Create a class Dog with an attribute name.
+	Objects of type dog should have a method eat()
+	which would output "(name) eats some food!".
+	
+2.		Create another class Cat which should have
+	attributes name and lives. Objects of type cat
+	should have a method respawn() which should be
+	printing "(name) has (lives) lives remaining!".
