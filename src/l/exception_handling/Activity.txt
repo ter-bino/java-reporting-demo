@@ -1,0 +1,9 @@
+Activity:
+
+		Create a program that will ask a number from
+	the user. The program should keep on asking user
+	for a number if the user provides input that is
+	not numeric. Make use of 'exception handling'.
+	
+	Hint:
+		Use try-catch inside of a loop statement.
