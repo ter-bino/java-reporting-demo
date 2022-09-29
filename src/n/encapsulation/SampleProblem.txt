@@ -1,0 +1,16 @@
+Sample Problems:
+
+1.		Create a Person class with attributes name and age.
+	It must have a method greet() which should output the
+	message "Hello, (name)! You are (age) years old!".
+	
+		Make use of encapsulation to protect the attribute
+	age from invalid values such as 0 or negative. Name
+	should also be protected from being modified into a
+	blank or empty String.
+	
+2.		Create a Player class with attributes username and
+	lives. Apply encapsulation, and set a rule such that a
+	Player object's username can not contain spaces. The
+	lives attribute must not have a set method, but rather
+	be modified with hitPlayer() and healPlayer().

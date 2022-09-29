@@ -1,0 +1,21 @@
+Activities:
+
+1.		Create an Employee class with attributes name and
+	salary. It must have a method pay() which would output
+	the message "(name) got paid (salary)."
+	
+		Make use of encapsulation to set a rule that the
+	minimum salary should be 10000.00. Name should also
+	be protected from being modified into a blank or empty
+	String.
+	
+2.		Create a BankAccount class which has attributes
+	accountId and accountBalance. Apply encapsulation so
+	that accountId is an 6 digit number. Instead of set
+	methods, use something more logical for modifying the
+	accountBalance.
+	
+	Hint: 99999 < accountBalance < 1000000
+	
+
+NOTE: Throw IllegalArgumentException() for invalid values.

@@ -3,8 +3,13 @@ package n.encapsulation;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO 01: Invalid states
+		
+		// TODO 02: Private fields
+		
+		// TODO 03: Getters and Setters
+		
+		// TODO 04: What breaks encapsulation
 
 	}
-
 }
