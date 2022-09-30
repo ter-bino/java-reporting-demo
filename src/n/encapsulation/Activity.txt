@@ -9,13 +9,41 @@ Activities:
 	be protected from being modified into a blank or empty
 	String.
 	
+	Sample:
+		
+		Employee employee = new Employee("Bob", 15000.00);
+		employee.pay();
+			-> outputs: Bob got paid 15000.00.
+		employee.setName("");
+			-> throws : IllegalArgumentException()
+		employee.setSalary(3000);
+			-> throws : IllegalArgumentException()
+			
+		(use setName and setSalary on different runs)
+	
+	
 2.		Create a BankAccount class which has attributes
 	accountId and accountBalance. Apply encapsulation so
 	that accountId is an 6 digit number. Instead of set
 	methods, use something more logical for modifying the
-	accountBalance.
+	accountBalance. Also add a printDetails() method that
+	should output "(accountId)'s Balance: (accountBalance)".
 	
-	Hint: 99999 < accountBalance < 1000000
+	Hint: 99999 < accountId < 1000000
+	
+	Sample:
+	
+		BankAccount account = new BankAccount(222222, 10000.00);
+		account.printDetails();
+			-> outputs: 222222's Balance: 10000.00
+		account.?(2000.00); //decreaser method
+		account.printDetails();
+			-> outputs: 222222's Balance: 8000.00
+		account.?(5000.00); //increaser method
+		account.printDetails();
+			-> outputs: 222222's Balance: 13000.00
+		account.setAccountId(1);
+			-> throws : IllegalArgumentException()
 	
 
 NOTE: Throw IllegalArgumentException() for invalid values.
