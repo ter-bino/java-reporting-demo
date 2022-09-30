@@ -15,7 +15,7 @@ following two methods:
 	
 2. Create a static method that will accept an int.
 	The method should check if the int is a perfect
-	square or not. Return value shoudl either be
+	square or not. Return value should either be
 	true or false (boolean)
 	
 	Sample
