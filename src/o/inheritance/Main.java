@@ -3,8 +3,11 @@ package o.inheritance;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		// TODO 01: Repetetive codes among similar classes
+		
+		
+		// TODO 02: Reducing code repetition with inheritance
+		
+		
 	}
-
 }

@@ -1,0 +1,12 @@
+Activity:
+
+1.		Create a class Vehicle with attributes brand
+	and method honk() that outputs "Beep! Beep!".
+	
+2.		Create a class Car that extends class Vehicle
+	and add method printBrand() that outputs "This car
+	is a (brand)!".
+	
+3.		In your main method, create an object of type
+	Car. Print it's attributes and call all of the user
+	defined methods available in the object.
