@@ -7,7 +7,7 @@ Activity:
 	and add method printBrand() that outputs "This car
 	is a (brand)!".
 	
-3.		In your main method, create an object of type
+		In your main method, create an object of type
 	Car. Print it's attributes and call all of the user
 	defined methods available in the object.
 	
