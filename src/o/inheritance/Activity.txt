@@ -10,3 +10,13 @@ Activity:
 3.		In your main method, create an object of type
 	Car. Print it's attributes and call all of the user
 	defined methods available in the object.
+	
+	Sample output:
+	
+	Car car = new Car("Generic");
+	System.out.println(car.brand);
+		-> outputs: Generic
+	car.honk();
+		-> outputs: Beep! Beep!
+	car.printBrand();
+		-> outputs: This car is a Generic!
