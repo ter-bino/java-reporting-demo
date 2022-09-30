@@ -1,0 +1,18 @@
+Sample Problems:
+
+1.		Copy the created classes from inheritance example.
+	Instead of using the superclass Person's greet() method,
+	override the method to include what they are.
+		
+		Employee class:
+			"Hello, (name)! You're an employee!"
+			
+		Student class:
+			"Hello, (name)! You're a student!"
+
+2.		Create classes Polygon, Triangle, Quadrilateral and
+	Pentagon. Polygon must have method printSides() which
+	should output "Polygons has 3 or more sides!".
+	
+		Make use of polymorphism so other classes should
+	print their exact number of sides.

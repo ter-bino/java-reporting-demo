@@ -1,0 +1,40 @@
+Activities:
+
+1. 		Create a class called Shape. Add a method called
+	printFormula(). The output will be "Different shapes
+	have different formulas for area and perimeter". Then
+	create classes Circle and Square which will implement
+	polymorphism by overriding printFormula() to actually
+	print the formula for area and perimeter.
+	
+	Sample:
+	Shape shape = new Shape();
+	shape.printFormula();
+		-> outputs: Different shapes have different formulas
+						for area and perimeter.
+	Shape circle = new Circle();
+	shape.printFormula();
+		-> outputs: Area: pi * r ^ 2 ; Perimeter 2 * pi * r
+	Shape square = new Square();
+	shape.printFormula();
+		-> outputs: Area: s * s ; Perimeter: s * 4
+		
+2. 		Create a class called Animal with method move() which
+	will output "The animal moves". Create classes Dog, Fish,
+	and Bird that will use polymorphism by overriding move(),
+	and print how they actually move.
+	
+	Sample:
+	Animal animal = new Animal();
+	animal.move();
+		-> outputs: The animal moves.
+	Animal dog = new Dog();
+	dog.move();
+		-> outputs: The dog walks.
+	Animal fish = new Fish();
+	fish.move();
+		-> outputs: The fish swims.
+	Animal bird = new Bird();
+	bird.move();
+		-> outputs: The bird flies.
+	
