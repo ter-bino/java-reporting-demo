@@ -3,7 +3,7 @@ package q.abstraction;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO 01: Create an abstract class with unimplemented methods
 
 	}
 

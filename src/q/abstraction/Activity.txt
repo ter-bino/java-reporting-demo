@@ -1,0 +1,27 @@
+Activity:
+
+		1. Create an abstract class/interface Writer with
+	unimplemented methods write() and erase().
+	
+		2. Create a static method that will call write()
+	and erase() method from a Writer implementation.
+	
+		3. Create a class Pen and make it implement Writer's
+	write() and erase() method.
+	
+		4. Create a class Pencil and make it implement
+	Writer's write() and erase() method.
+	
+		5. You decide what they do in the write() and erase()
+	method :) (Simple print statements are enough)
+	
+		6. In your main method, pass an instance of Pen and
+	Pencil to the static method you created in step 2.
+	
+	Sample main:
+	someStaticMethod(new Pen());
+		-> (output of write that you made)
+		-> (output of erase that you made)
+	someStaticMethod(new Pencil());
+		-> (output of write that you made)
+		-> (output of erase that you made)
