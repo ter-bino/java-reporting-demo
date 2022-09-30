@@ -6,8 +6,23 @@ Activities:
 	to find and output the average.
 	(USE ARRAYS!)
 	
+	Sample:
+	Enter int 1: 2
+	Enter int 2: 4
+	Enter int 3: 1
+	Enter int 4: 6
+	Enter int 5: 7
+	The average is 4!
+	
 2. Create a program that will ask the user for input
 	n. The program will then collect n amount of names
 	from the user and store it to an array of String
 	with size n. Use Arrays.toString() to output the
 	contents of the array.
+	
+	Sample:
+	Number of names to enter: 3
+	Enter name 1: Peter
+	Enter name 2: Pizza
+	Enter name 3: Parker
+	[Peter, Pizza, Parker]
