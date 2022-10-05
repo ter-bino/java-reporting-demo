@@ -25,5 +25,5 @@ tmp/
 local.properties
 .loadpath
 .factorypath
-
+.idea
 
