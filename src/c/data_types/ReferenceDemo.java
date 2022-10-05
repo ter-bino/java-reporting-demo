@@ -10,6 +10,8 @@ public class ReferenceDemo {
 		System.out.println("Array 1: " + Arrays.toString(array1));
 		
 		var array2 = array1;
+		array2[0] = 10;
 		System.out.println("Array 2: " + Arrays.toString(array2));
+		System.out.println("Array 1: " + Arrays.toString(array1));
 	}
 }
