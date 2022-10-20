@@ -10,9 +10,7 @@ Sample Problems:
 		Student class:
 			"Hello, (name)! You're a student!"
 
-2.		Create classes Polygon, Triangle, Quadrilateral and
-	Pentagon. Polygon must have method printSides() which
-	should output "Polygons has 3 or more sides!".
-	
-		Make use of polymorphism so other classes should
-	print their exact number of sides.
+2.		Create a class Polygon. It should have static methods
+	findPerimeter(). Make use of overloading so that we can
+	find the perimeter of a Polygon with three, four or five
+	sides with the same method called findPerimeter().
