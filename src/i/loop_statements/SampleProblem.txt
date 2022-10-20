@@ -8,7 +8,7 @@ Sample Problems:
 	a positive number. Print "done" when exiting the
 	loop.
 	
-	-> Implement above with while and do-whike
+	-> Implement above with while and do-while
 	
 	Sample:
 	Enter a negative number: 10
