@@ -10,7 +10,7 @@ Sample Problems:
 	blank or empty String.
 	
 2.		Create a Player class with attributes username and
-	lives. Apply encapsulation, and set a rule such that a
+	health. Apply encapsulation, and set a rule such that a
 	Player object's username can not contain spaces. The
-	lives attribute must not have a set method, but rather
+	health attribute must not have a set method, but rather
 	be modified with hitPlayer() and healPlayer().
