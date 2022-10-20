@@ -1,32 +1,41 @@
 Activities:
 
-1.		Create a class called Money. The class should
-	have two attributes, currency (String) and amount
-	(double/float). Objects of type Money should have
-	method printMoney() which should output something
-	like "(currency) (amount)":
-		PHP 150.00
-		USD 250.25
-		PHP 1325.20
-		
-2.		Create a class called Television. This class
-	should have an attribute "currentChannel" with a
-	default value of 1.
+1.		Create a class Dog with an attribute name.
+	Objects of type dog should have a method eat()
+	which would output "(name) eats some food!".
 	
-		There must be methods:
-			- channelDown() - decrements the current
-				channel and output it.
-			- channelUp() - increments the current
-				channel and output it.
-				
-		Channels should only range from 1-10.
-		
-	Sample:
-		Television television = new Television();
-		television.channelUp()
-		output:	Switched to channel 2!
-		television.channelDown()
-		output:	Switched to channel 1!
-		television.channelDown()
-		output:	..nothing happens..
-			(because 1 is already minimum channel)
+	Example:
+	Dog dog = new Dog();
+	dog.name = "Oreo";
+	dog.eat();
+	-> outputs: Oreo eats some food!
+	
+2.		Create another class Cat which should have
+	attributes name and lives(default value is 9).
+	Objects of type cat should have a method respawn()
+	which should be printing "(name) has (lives)
+	lives remaining!". Print a different message
+	if the cat can no longer respawn.
+	
+	Example:
+	Cat cat = new Cat("Kitty");
+	cat.respawn();
+	-> outputs: Kitty has 8 lives remaining!
+	cat.respawn();
+	-> outputs: Kitty has 7 lives remaining!
+	cat.respawn();
+	-> outputs: Kitty has 6 lives remaining!
+	cat.respawn();
+	-> outputs: Kitty has 5 lives remaining!
+	cat.respawn();
+	-> outputs: Kitty has 4 lives remaining!
+	cat.respawn();
+	-> outputs: Kitty has 3 lives remaining!
+	cat.respawn();
+	-> outputs: Kitty has 2 lives remaining!
+	cat.respawn();
+	-> outputs: Kitty has 1 lives remaining!
+	cat.respawn();
+	-> outputs: Kitty has 0 lives remaining!
+	cat.respawn();
+	-> outputs: Kitty is out of lives, can't respawn!
